@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./node_modules/typescript/bin/tsc",
-    "test": "node ./node_modules/alsatian/cli/alsatian-cli.js build/test/**/*.spec.js"
+    "build": "tsc",
+    "test": "alsatian build/test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
