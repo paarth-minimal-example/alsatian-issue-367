@@ -4,4 +4,4 @@ Execute with:
 
     npm install
     npm run build
-    npm run init
+    npm run test
