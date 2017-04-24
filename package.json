@@ -1,0 +1,24 @@
+{
+  "name": "alsatian-issue-367",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/typescript/bin/tsc",
+    "test": "node ./node_modules/alsatian/cli/alsatian-cli.js build/test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paarth-minimal-example/alsatian-issue-367.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paarth-minimal-example/alsatian-issue-367/issues"
+  },
+  "homepage": "https://github.com/paarth-minimal-example/alsatian-issue-367#readme",
+  "dependencies": {
+    "alsatian": "^1.3.1",
+    "typescript": "^2.2.2"
+  }
+}
