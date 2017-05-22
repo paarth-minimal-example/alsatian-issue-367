@@ -6,7 +6,10 @@
         "sourceMap": false,
         "experimentalDecorators": true,
         "outDir": "build",
-        "baseUrl": "."
+        "baseUrl": ".",
+        "paths": {
+            "*": ["*"]
+        }
     },
     "include": [
         "src/**/*.ts",
